@@ -1,0 +1,35 @@
+.pagination {
+    display: flex;
+    list-style-type: none;
+}
+
+.pagination__item-link {
+    text-decoration: none;
+    padding: 5px;
+    border: 1px solid #000;
+    cursor: pointer;
+    color: black;
+}
+
+.pagination__item-link_inactive {
+    cursor: default;
+    color: grey;
+}
+
+/* post */
+.single-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-back {
+    margin-right: auto;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 900px;
+}
